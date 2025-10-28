@@ -48,9 +48,9 @@ public class BankersAlgo{
         }
         System.out.println("The system is in safe state. Safe sequence is as follow: ");
         for(i = 0; i<P; i++){
-            System.out.println("P"+safeSeq[i]);
+            System.out.print("P"+safeSeq[i]);
             if(i != P-1){
-                System.out.println("->");
+                System.out.print("->");
             }
         }
     }
